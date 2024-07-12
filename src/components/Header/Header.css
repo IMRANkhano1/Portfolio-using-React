@@ -6,6 +6,9 @@
   align-items: center;
   color: #ffffff;
   background-color: #000000;
+  top: 0;
+  position: sticky;
+  z-index: 100;
 }
 .header-left {
   /* width: 40%; */

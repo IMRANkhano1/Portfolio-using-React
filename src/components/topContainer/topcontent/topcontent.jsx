@@ -8,10 +8,10 @@ function Topcontent() {
         <h1>Mr.Imran Shakil</h1>
         <p>ReactJs Developer</p>
         <a href="www.google.com">
-          <button>Download CV</button>
+          <button className="topContent-downlod-btn">Download CV</button>
         </a>
         <Link to="projects" smooth={true} duration={500}>
-          <button>My Work</button>
+          <button className="topContent-work-btn">My Work</button>
         </Link>
       </div>
     </div>
